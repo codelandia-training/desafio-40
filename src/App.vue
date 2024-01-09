@@ -1,10 +1,10 @@
 <template>
-    <main class="grid grid-cols-12 bg-[#f5f5f5]">
+    <div class="grid grid-cols-12 bg-[#f5f5f5]">
         <Sidebar />
         <section class="col-span-9">
             <MainView />
         </section>
-    </main>
+    </div>
 </template>
 
 <script setup>
