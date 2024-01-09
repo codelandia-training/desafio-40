@@ -5,6 +5,7 @@
             <GraficoDeReceitas class="w-1/2" />
             <HistoricoDeTransacoes class="w-1/2" />
         </div>
+        <Informacoes />
     </main>
 </template>
 
@@ -12,6 +13,7 @@
 import Header from "../components/Header.vue";
 import GraficoDeReceitas from "../components/GraficoDeReceitas/GraficoDeReceitas.vue";
 import HistoricoDeTransacoes from "../components/HistoricoDeTransacoes.vue";
+import Informacoes from "../components/Informacoes/Informacoes.vue";
 </script>
 
 <style lang="scss" scoped></style>
