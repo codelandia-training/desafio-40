@@ -1,9 +1,9 @@
 <template>
-    <main class="py-12 px-20">
+    <main class="md:py-12 md:px-20 px-4 py-8">
         <Header />
-        <div class="flex gap-x-6 mt-8">
-            <GraficoDeReceitas class="w-1/2" />
-            <HistoricoDeTransacoes class="w-1/2" />
+        <div class="md:flex md:flex-row flex-col flex gap-6 mt-8">
+            <GraficoDeReceitas class="md:w-1/2 w-full" />
+            <HistoricoDeTransacoes class="md:w-1/2 w-full" />
         </div>
         <Informacoes />
         <HistoricoDeCompradores />
