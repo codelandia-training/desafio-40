@@ -1,7 +1,7 @@
 <template>
     <main class="py-12 px-20">
         <Header />
-        <div class="flex gap-x-6">
+        <div class="flex gap-x-6 mt-8">
             <GraficoDeReceitas class="w-1/2" />
             <HistoricoDeTransacoes class="w-1/2" />
         </div>

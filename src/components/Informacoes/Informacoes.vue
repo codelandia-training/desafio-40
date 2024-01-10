@@ -1,6 +1,6 @@
 <template>
     <section class="my-12 flex justify-between gap-4">
-        <div class="bg-white w-56 rounded-xl py-4 pl-4 flex flex-col gap-y-2">
+        <div class="bg-white w-64 rounded-xl py-4 pl-4 flex flex-col gap-y-2">
             <h3 class="font-medium text-black/85">Total de vendas</h3>
             <strong>R$ 3.265,21</strong>
             <span
@@ -10,7 +10,7 @@
                 <h5>+11%</h5>
             </span>
         </div>
-        <div class="bg-white w-56 rounded-xl py-4 pl-4 flex flex-col gap-y-2">
+        <div class="bg-white w-64 rounded-xl py-4 pl-4 flex flex-col gap-y-2">
             <h3 class="font-medium text-black/85">Total líquido</h3>
             <strong>R$ 2.825,58</strong>
             <span
@@ -20,7 +20,7 @@
                 <h5>+15%</h5>
             </span>
         </div>
-        <div class="bg-white w-56 rounded-xl py-4 pl-4 flex flex-col gap-y-2">
+        <div class="bg-white w-64 rounded-xl py-4 pl-4 flex flex-col gap-y-2">
             <h3 class="font-medium text-black/85">Compras canceladas</h3>
             <strong>R$ 130,00</strong>
             <span
@@ -30,7 +30,7 @@
                 <h5>-80%</h5>
             </span>
         </div>
-        <div class="bg-white w-56 rounded-xl py-4 pl-4 flex flex-col gap-y-2">
+        <div class="bg-white w-64 rounded-xl py-4 pl-4 flex flex-col gap-y-2">
             <h3 class="font-medium text-black/85">Reembolsos</h3>
             <strong>R$ 345,00</strong>
             <span
