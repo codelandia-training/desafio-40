@@ -1,6 +1,6 @@
 <template>
     <aside
-        class="bg-white px-12 h-screen col-span-3 flex flex-col items-center pt-16 gap-y-10"
+        class="bg-white px-12 h-screen col-span-2 flex flex-col items-center pt-16 gap-y-10"
     >
         <h1 class="text-[#272727] text-3xl font-semibold">
             <span class="text-[#9E6EFE]">e</span>Front

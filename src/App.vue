@@ -1,7 +1,7 @@
 <template>
     <div class="grid grid-cols-12 bg-[#f5f5f5]">
         <Sidebar />
-        <section class="col-span-9">
+        <section class="col-span-10">
             <MainView />
         </section>
     </div>
