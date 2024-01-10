@@ -1,5 +1,5 @@
 <template>
-    <main class="py-12 px-20">
+    <main class="md:py-12 md:px-20 px-4 py-8">
         <Header />
         <div class="flex gap-x-6 mt-8">
             <GraficoDeReceitas class="w-1/2" />
