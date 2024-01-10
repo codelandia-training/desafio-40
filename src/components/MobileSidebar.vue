@@ -3,7 +3,12 @@
         <img @click="handleOpen" class="cursor-pointer" src="/hamburguer.png" alt="" />
         <div class="flex items-center gap-x-8">
             <div class="flex gap-x-4">
-                <img src="/search.png" alt="" />
+                <img
+                    class="cursor-pointer"
+                    @click="handleSearchClick"
+                    src="/search.png"
+                    alt=""
+                />
                 <img src="/bell.png" alt="" />
             </div>
             <div class="flex items-center gap-x-2">
@@ -62,16 +67,23 @@
             </h2>
         </span>
     </div>
+    <BarraDePesquisa v-if="isOpenSearch" />
 </template>
 
 <script setup>
+import BarraDePesquisa from "./BarraDePesquisa.vue";
 import { ref } from "vue";
 
 const isOpen = ref(false);
-
 function handleOpen() {
     isOpen.value = !isOpen.value;
     console.log(isOpen.value);
+}
+
+const isOpenSearch = ref(false);
+function handleSearchClick() {
+    isOpenSearch.value = !isOpenSearch.value;
+    console.log(isOpenSearch.value);
 }
 </script>
 
